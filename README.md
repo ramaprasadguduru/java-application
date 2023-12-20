@@ -1,4 +1,4 @@
-#### Readme file written by Ramaprasad Guduru
+#### Readme file created by Ramaprasad Guduru
 #### deploy manually ###############
 
 Run Maven Clean and Install:
