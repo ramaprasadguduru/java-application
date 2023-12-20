@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: java-hello-world-app
-          image: your-docker-image:latest  # Replace with your Docker image name and tag
+          image: java-application:latest
           ports:
             - containerPort: 8080
 
