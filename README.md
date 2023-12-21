@@ -61,11 +61,17 @@ Start Jenkins service
 # sudo systemctl start jenkins
 
 5. Create Jenkins Pipeline
-Open Jenkins dashboard using Username and Password.
+   
+Open the Jenkins dashboard using Username and Password.
+
 Click on "New Item."
+
 Choose "Pipeline" and enter a name.
+
 Define the pipeline script.
+
 Save the pipeline job.
+
 Click "Build Now" to run the pipeline.
 
 6. Build and Push Docker Image
@@ -87,9 +93,13 @@ Push the Docker Image:
 # docker push java-application:latest
 
 7. Deploy to Kubernetes
-Step 1: Apply the Deployment YAML
-Save the Kubernetes Deployment YAML content in a file, for example, java-hello-world-deployment.yaml. Then, apply the deployment to your Kubernetes cluster:
 
+Step 1: Apply the Deployment YAML
+
+Save the Kubernetes Deployment YAML content in a file, for example, java-hello-world-deployment.yaml.
+
+ Then, apply the deployment to your Kubernetes cluster:
+ 
 # kubectl apply -f java-hello-world-deployment.yaml
 
 Step 2: Verify Deployment
