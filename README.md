@@ -5,13 +5,21 @@ This guide provides step-by-step instructions for deploying a Java Hello World a
 ### Table of Contents ### 
 
 Run Maven Clean and Install
+
 Build the Executable JAR
+
 Run the Executable JAR
+
 Install Jenkins
+
 Create Jenkins Pipeline
+
 Build and Push Docker Image
+
 Deploy to Kubernetes
+
 Access the Application
+
 Cleanup
 
 1. Run Maven Clean and Install
