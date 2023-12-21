@@ -80,7 +80,7 @@ Navigate to the directory:
 # cd /path/to/your/java/application
 
 Build the Docker Image:
-# docker build -t your-docker-image:latest .
+# docker build -t java-application:latest .
 
 Run the Docker Container Locally:
 # docker run -p 8080:8080 java-application:latest
